@@ -2,11 +2,12 @@ package com.moviefinder;
 
 public class Movie {
 	
-	private String title, year, audScore, rtUrl, imdbUrl;
+	private String title, rtUrl, imdbUrl;
+	private int year, audScore;
 	private String[] userTags;
 	
 	//Constructor for Query 1 
-	public Movie(String title, String year, String audScore, String rtUrl, String imdbUrl) {
+	public Movie(String title, int year, int audScore, String rtUrl, String imdbUrl) {
 		this.title = title;
 		this.year = year;
 		this.audScore = audScore;
