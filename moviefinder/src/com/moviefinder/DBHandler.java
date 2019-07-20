@@ -41,10 +41,20 @@ public class DBHandler {
 		finally {
 			return movies;
 		}
+		
 	}
 	
 	public Movie query2(String title) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -52,7 +62,16 @@ public class DBHandler {
 	}
 	
 	public Movie query3(String genre, int k) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -60,7 +79,16 @@ public class DBHandler {
 	}
 	
 	public Movie query4(String director) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -68,7 +96,16 @@ public class DBHandler {
 	}
 	
 	public Movie query5(String actor) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -76,7 +113,16 @@ public class DBHandler {
 	}
 	
 	public Movie query6(String tag) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -84,7 +130,16 @@ public class DBHandler {
 	}
 	
 	public Movie query7(int k) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -92,7 +147,16 @@ public class DBHandler {
 	}
 	
 	public Movie query8(int k) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -100,7 +164,16 @@ public class DBHandler {
 	}
 	
 	public Movie query9(int k) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
@@ -108,7 +181,16 @@ public class DBHandler {
 	}
 	
 	public Movie query10(String title) {
-		databaseConnector();
+		Statement stmt = null;
+		try {
+			stmt = databaseConnector().createStatement();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
 		
 		
 		
